@@ -1,0 +1,71 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:id="@+id/LinearLayout1"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:gravity="center_horizontal"
+              android:orientation="vertical"
+              android:background="@drawable/lakemichigansunset2" android:transitionGroup="false">
+
+    <Space
+            android:layout_width="1dp"
+            android:layout_height="10dp"/>
+
+    <ImageView
+            android:src="@drawable/fssa_logo_clear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:layout_gravity="center_horizontal"/>
+    <Space
+            android:layout_width="1dp"
+            android:layout_height="30dp"/>
+
+    <Button
+            android:id="@+id/loginButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:drawable/btn_default"
+            android:textColor="#ff14244b"
+            android:text="Login To FSSA Webpage" />
+
+    <Button
+            android:id="@+id/createCaseButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:drawable/btn_default"
+            android:textColor="#ff14244b"
+            android:text="Create a Case" />
+    <Button
+            android:id="@+id/nearestCenterButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:drawable/btn_default"
+            android:textColor="#ff14244b"
+            android:text="Find an FSSA Center" />
+    <Button
+            android:id="@+id/scanQRButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:drawable/btn_default"
+            android:textColor="#ff14244b"
+            android:text="Scan a QR Code" />
+    <Space
+            android:layout_width="1dp"
+            android:layout_height="10dp"/>
+
+    <Button
+            android:id="@+id/phone"
+            android:textColor="#FFFFFF"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" 1-800-403-0864 "
+            android:textSize="20dp"
+            android:background="#ff14244b"
+
+            />
+
+
+
+
+
+
+</LinearLayout>

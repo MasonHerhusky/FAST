@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@drawable/lakemichigansunset2">
+
+    <Space
+            android:layout_width="1dp"
+            android:layout_height="10dp"/>
+
+    <ImageView
+            android:src="@drawable/fssa_logo_clear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:layout_gravity="center_horizontal"/>
+    <Space
+            android:layout_width="1dp"
+            android:layout_height="20dp"/>
+
+    <TextView
+            android:textSize="35dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Enter Case Details"
+            android:textStyle="bold"
+            android:textColor="#ff1b3065"
+            android:layout_gravity="center"
+            />
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            />
+    <Space
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="20dp"
+            />
+    <EditText
+            android:id="@+id/name"
+            android:layout_gravity="center_horizontal|bottom"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:hint=" First and Last Name"
+            android:background="#fffefff3"
+            android:minHeight="40dp"
+            android:text=""
+            android:inputType="textCapWords"
+            />
+    <Space
+            android:layout_width="wrap_content"
+            android:layout_height="10dp"
+            android:layout_gravity="center"
+            />
+    <EditText
+            android:id="@+id/email"
+            android:layout_width="300dp"
+            android:background="#fffefff4"
+            android:minHeight="40dp"
+            android:layout_gravity="center_horizontal|bottom"
+            android:layout_height="wrap_content"
+            android:hint=" Email"
+            android:text=""
+            android:inputType="textEmailAddress"
+            android:imeActionLabel="Login"
+            />
+    <Space
+            android:layout_width="wrap_content"
+            android:layout_height="10dp"/>
+    <EditText
+            android:id="@+id/phone"
+            android:layout_width="300dp"
+            android:background="#fffefff4"
+            android:minHeight="40dp"
+            android:layout_gravity="center_horizontal|bottom"
+            android:layout_height="wrap_content"
+            android:hint=" Phone Number"
+            android:text=""
+            android:inputType="number"
+            android:imeActionLabel="Login"
+            />
+    <Space
+            android:layout_width="wrap_content"
+            android:layout_height="10dp"/>
+    <EditText
+            android:id="@+id/other"
+            android:layout_width="300dp"
+            android:background="#fffefff4"
+            android:minHeight="40dp"
+            android:layout_gravity="center_horizontal|bottom"
+            android:layout_height="100dp"
+            android:hint=" Additional Information"
+            android:text=""
+            android:inputType="text"
+            android:lines="3"
+            android:scrollHorizontally="false"
+            android:imeActionLabel="Login"
+            />
+    <Space
+            android:layout_width="wrap_content"
+            android:layout_height="10dp"/>
+    <Button
+            android:id="@+id/submit_button"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Submit"
+            android:textColor="#ff120b5a"
+            android:background="@android:drawable/btn_default"
+            />
+
+
+
+</LinearLayout>
